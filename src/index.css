@@ -25,9 +25,17 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  flex-direction: column;       /* Stack elements vertically */
+  justify-content: center;      /* Center content vertically */
+  align-items: center;          /* Center content horizontally */
+  background-color: black; /* Background color */
+  height: 100vh;               /* Full viewport height */
+  margin: 0;                   /* Remove default body margin */
+  font-family: 'coolS', sans-serif;
+  color: white
+  /* place-items: center;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 100vh; */
 }
 
 h1 {
